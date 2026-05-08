@@ -6,13 +6,13 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = red dot
+  // - "online"    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "invisible",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
+      primary: "#00008B", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
