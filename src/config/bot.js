@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Under maintenance, do not interact with the bot while its maintenance mode is on.",
         // Activity type number (0 = Playing).
-        type: 1, 
+        type: 4, 
       },
     ],
   },
