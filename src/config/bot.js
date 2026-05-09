@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Under maintenance, do not interact with the bot while its maintenance mode is on.",
+        name: "Say /help for all available commands.",
         // Activity type number (0 = Playing).
         type: 4, 
       },
